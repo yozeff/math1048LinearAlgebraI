@@ -21,6 +21,7 @@ def int_in(prompt, cond=lambda x: True, err=''):
 		except ValueError:
 			print('must be an integer')
 
+#note: this doesn't format the matrices exactly as I'd like yet, but it's ok for the time being
 def print_mat(mat, dp=3):
 	for i in range(len(mat)):
 		row_str = ''
