@@ -65,5 +65,6 @@ def main():
 	print('\nreduced row echelon form:\n')
 	res.print_mat(mat)
 	print(f'\nfinished in {round(total_time, 4)}s (4d.p)')
+
 if __name__ == '__main__':
 	main()
